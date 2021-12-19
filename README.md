@@ -112,7 +112,7 @@ Once again, we plotted the sentiment average over time.
 
 ### Blockchain Analysis
 
-### Bitcoin
+#### Bitcoin
 We looked at the overall Bitcoin Blockchain and analyzed the contained data to underst-and the effects of different metrics on the price of the respective cryptocurrency. Below is the visualization of when the Bitcoin Blockchain observed an increase in its number of transactions. 
  
 Visualize the increase of the processing power of the miners (hash_rate) of the respective cryptocurrency. We do this with respect to the entire network as a function of time.
@@ -131,8 +131,7 @@ We regress Log (no. of transactions) = (m*t)+c. Here t->time. Aim is to understa
 Overall, the model looks like a good fit. There seems to still exist some lag, but the guess is that increase in the number of variables will also increase the overfitting potential of the model. Selecting the right lags becomes fundamental.
 The future of this analysis could focus on the function i.e., probability of orphan blocks, of other variables of the bitcoin network. Analysis of miners' incentives can be done by adding features to our data i.e., feature engineering.
 
-### Ethereum
-
+#### Ethereum
 The Ethereum Blockchain Analysis was fairly simple. We uploaded the selected features from EtherScan to our notebook and found the interrelationships between diffe-rent features and variables. The variables we used were as follows. 
 	Ethereum Price History in USD from 2016 to 2021 (current day)
 	Ethereum Block Size History from 2016 to 2021 (current day)
@@ -143,19 +142,13 @@ The Ethereum Blockchain Analysis was fairly simple. We uploaded the selected fea
 
 From the graph below, we can see that the block size of Ethereum overtime has increased significantly. Also, the blockchain seems to have been affected only after 2017.  From the graph below, we can see the price of Ethereum in USD overtime. Also, the blockchain seems to have increased in price only after 2017.
  
-
 Here, we see the Hashrate Growth Rate of the network over time. 
  
-
 We look at the transaction history of the network. This transaction seems to have increased before the prices increased in the above graph. It can be observed that the number of transactions is proportional to the price of the cryptocurrency.  
 
-
 From the below graph, we can see that the market capital of the network is 5 times what it was in 2018. Although the prices and transactions increased from 2017, the market price was significantly affected only by 2018.
-
  
 We now look at the total number of transactions per year from 2015 onwards. Maximum number of transactions can be noticed in 2020 and 2021. 
-
-
 
 ## Models
 
@@ -167,12 +160,8 @@ After Decision Tree Regression Models make their predictions on the value of the
 For this approach we used three different Decision Tree Regression models which are Random Forest, Gradient Boosting, and ExtraTrees. Random Forest works by creating multiple decision trees and using the outcome of each tree to average the output. The “random” in its name comes from randomly selecting a subset of features for decision making. ExtraTrees is similar to Random Forest, the difference being that in ExtraTrees, the top-down splitting in the tree learner is randomized. Finally, Gradient Boosting works by creating multiple decision tree models. Before each decision tree is created after the first, the Gradient Boosting model uses a gradient descent procedure to minimize the error in the next tree by removing features that cause errors.
 
 The results of the voting-based Decision Tree Regression Models did not perform as well as was hoped. The models for Bitcoin had a R Squared value of around 0.9 and an Explained Variance Score of again around 0.9. On the other hand, for Ethereum, the models only scored around a 0.23 for R Squared and 0.5 for Explained Variance. What these values mean is important. R Squared describes how well a model fits its data, a high R Square a better fit. If too high, a model can be over-fitted, if too low a straight line could do better at predicting. The Explained Variance Score describes how well the model can handle variation. Even though the models scored high for Bitcoin, they still were not able to predict the fall in price, the same goes for Ethereum.
-
-       
-
-  
+ 
 In order to increase the accuracy of the model, the best approach would be to gather a larger set of data. Due to limitations of twitter gathering tools, the data was constrained to only one and half months of data. If data was gathered for around a year, the amount would help better train the models. Another thing to consider would be adding more features and possibly removing some that hinder the models. The feature selection for these models were done by hand and an aided feature selector could possibly increase the accuracy. Also, to add features, more data should be considered besides just twitter sentiment, google news sentiment, and on chain data. A great feature to include could be the average price of graphics cards as they are used by crypto miners to mine different crypto currencies.
-
 
 ### GARCH Model: Forecasting Volatility of BTC/ETH.
 When using traditional approaches to model time series, a change in variance or volatility over the time might cause problems. Autoregressive models may be created for univariate time-series data that are stationary (AR), trend (ARIMA or AutoRegressive Integrated Moving Average), and seasonal (SARIMA). A change in variance over time is one characteristic of a univariate time series that these autoregressive models do not model. In our time series data, the variance changes consistently over time, this would be called increasing and decreasing volatility.
@@ -182,40 +171,29 @@ GARCH, or Generalized Autoregressive Conditional Heteroskedasticity, is an expan
 The model has two parameters: 
 	p: The number of lag variances.
 	q: The number of lag residual errors.
-After analyzing different model parameters, the GARCH model with the number of lag variances and lag residual errors equal to one gave us the best results.
-
- 
+After analyzing different model parameters, the GARCH model with the number of lag variances and lag residual errors equal to one gave us the best results. 
 
 ### Sequential Model and LSTM
 We used LSTM network sequential models and LSTM Sequential models are the machine learning models that input or output sequences of data. We applied sequential model to set layers of dense, dropout, and LSTM. The neural network comprises a LSTM layer followed by 20% of dropout layer and dense layer with linear activation function. We compiled the model using Adam as the optimizer and Mean Squared Error as the loss function. The parameters are random number seed, length of the window, test set size, number of neurons in LSTM layer, epochs, batch size, loss, dropouts, and optimizer. We took live data and acquired it from Yahoo! Finance. 
 We took live data from January 01, 2021, to the present day for testing to predict the prices. After that, we predicted the prices for the next day, after one month, after three months and after six months prices for all seven cryptocurrencies. All the predictions are done considering the date December 15, 2021. The line graph below shows the actual prices and predicted prices of every cryptocurrency. There are four-line graphs for every cryptocurrency which is on the next day, after 1 month, after 3 months and after 6 months which depicts actual price and predicted price.
 
- 
 Figure: Bitcoin Cryptocurrency line graph
  
 Figure : Ethereum Cryptocurrency line graph
  
 Figure: Litecoin Cryptocurrency line graph
 
- 
 Figure : Ripple Cryptocurrency line graph
 
-
-
- 
 Figure : Dogecoin Cryptocurrency line graph
 
- 
 Figure: Decentraland Cryptocurrency line graph
 
- 
 Figure: Polygon Cryptocurrency line graph
 
 We used LSTM and sequential model layers on all 7 cryptocurrencies separately. The results we acquired were as per the date December 15, 2021. The results are as follows.
  
 The Actual prices on December 16, 2021, and Predicted prices on December 16, 2021, of cryptocurrencies using LSTM.
-
- 
 
 ## Conclusions
 In conclusion, we do believe that Twitter sentiment is a good predictor of price trends. Using Twitter sentiment analysis and other features we were able to build a model that predicts the price fluctuations of Bitcoin and Ethereum. The Twitter sentiment trend moves in almost the same as the price performance in some instances. Although our model does not predict the exact price in which the coins will move to, our model is able to predict a value which is close to the actual price. 

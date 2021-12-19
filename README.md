@@ -6,19 +6,9 @@
 The goal of this project was to explore crypto currency and create a model using Block-Chain analysis along with Sentiment Analysis of Twitter data to accurately predict future prices of different crypto.
 
 #Process
--
-
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+1. Research other projects and their approach to similar projects
+2. Use research to delop a plan of action
+3. Gather data to be used in the project
+4. EDA
+5. Model Creation
+6. Evaluation of models

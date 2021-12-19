@@ -1,5 +1,21 @@
-# Welcome The Data Science Capstone Project of
-### Bhavika Bhupatrai Chavda, Dhruvil Dalwadi, Benjamin Jeremenko, Temi Moses and Parth Soni
+# Cryptocurrency Market Analysis
+
+## Team and Their Contributions:
+### Benjamin Jeremenko
+Research, Project Report, Literature Review, Twitter Sentiment Analysis, Prediction Analysis (Decision Tree Model using voting), GitHub
+
+### Bhavika Bhupatrai Chavda
+Research, Slide Deck, Project Report, Literature Review, EDA, News Headlines Sentiment Analysis, Prediction Analysis (Sequential Model using LSTM layers), Blockchain Analysis (BTC, ETH), GitHub
+
+### Dhruvil Dalwadi 
+Research, Slide Deck, Project Report, Literature Review, EDA, Prediction Analysis (Sequential Model using LSTM layers)
+
+### Parth Soni
+Research, Slide Deck, Project Report, Garch Model
+
+### Temi Moses
+Research, Slide Deck, Project Report, Literature Review
+
 
 ## Goal
 

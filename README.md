@@ -21,7 +21,6 @@ Research, Slide Deck, Project Report, Literature Review
 
 
 ## Goal
-
 The goal of this project was to explore crypto currency and create a model using Block-Chain analysis along with Sentiment Analysis of Twitter data to accurately predict future prices of different crypto.
 
 ## Process
@@ -33,7 +32,7 @@ The goal of this project was to explore crypto currency and create a model using
 6. Evaluation of models
 
 ## Data
-The datasets we used ware acquired from different sources. The live data was acquired from Yahoo! Finance while the historical data was from CoinMetrics, Blockchain.com, and EtherScan.io. We also utilized the module named pygooglenews to extract the news headlines, URLs and dates of Google News for performing the sentiment analysis of the news articles headlines. For Twitter data, a python module named Twint was used to gather data. It would return the date, text, user, and other data about the tweet. For blockchain analysis on Bitcoin, we utilized a platform called Blockchain. We got the following metrics from the website.
+The datasets we used ware acquired from different sources. The live data was acquired from Yahoo! Finance while the historical data was from CoinMetrics, Blockchain.com, and EtherScan.io. We also utilized the module named pygooglenews to extract the news headlines, URLs and dates of Google News for performing the sentiment analysis of the news articles headlines. For blockchain analysis on Bitcoin, we utilized a platform called Blockchain. We got the following metrics from the website.
 - Date
 - Year
 - Month
@@ -70,6 +69,8 @@ We got the following metrics from the platform.
 -	Ethereum Hash Rate from 2016 to 2021 (current day)
 -	Ethereum Market Cap from 2016 to 2021 (current day)
 -	Ethereum Transaction History from 2016 to 2021 (current day)
+
+For Twitter data, a python module named Twint was used to gather data. It would return the date, text, user, and other data about the tweet. The text was put into a sentiment analysis module called Textblob. It would return both the polarity and subjectivity of the text. Polarity is how positive or negative the text is and subjectivity is how much of an opinion it is. These numbers were then averaged for each day.
 
 ## Methodology and Analyses
 

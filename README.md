@@ -19,10 +19,6 @@ Research, Slide Deck, Project Report, Garch Model
 ### Temi Moses:
 Research, Slide Deck, Project Report, Literature Review
 
-
-## Goal
-The goal of this project was to explore crypto currency and create a model using Block-Chain analysis along with Sentiment Analysis of Twitter data to accurately predict future prices of different crypto.
-
 ## Process
 1. Research other projects and their approach to similar projects
 2. Use research to delop a plan of action

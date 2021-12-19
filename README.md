@@ -1,4 +1,7 @@
-## Welcome to GitHub Pages
+## Welcome The Data Science Capstone Project of:
+### Bhavika Bhupatrai Chavda, Dhruvil Dalwadi, Benjamin Jeremenko, 
+Temi Moses and Parth Soni
+
 
 You can use the [editor on GitHub](https://github.com/bej2/DATA606Capstone/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 

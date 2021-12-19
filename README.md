@@ -70,4 +70,6 @@ We got the following metrics from the platform.
 
 For Twitter data, a python module named Twint was used to gather data. It would return the date, text, user, and other data about the tweet. Using the module Textblob, the sentiment was extracted from the tweet. The process produced the polarity which is a number between -1 and 1, 1 meaning positive sentiment, -1 meaning negative sentiment. It also returned the subjectivity of the tweet. This is how much of an opinion the text is. This is a number between 0 and 1, 0 being a fact, 1 being an opinion. These numbers were then averaged per each day.
 
+## Models
+
 ## References

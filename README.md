@@ -32,7 +32,10 @@ The goal of this project was to explore crypto currency and create a model using
 6. Evaluation of models
 
 ## Data
-The datasets we used ware acquired from different sources. The live data was acquired from Yahoo! Finance while the historical data was from CoinMetrics, Blockchain.com, and EtherScan.io. We also utilized the module named pygooglenews to extract the news headlines, URLs and dates of Google News for performing the sentiment analysis of the news articles headlines. For blockchain analysis on Bitcoin, we utilized a platform called Blockchain. We got the following metrics from the website.
+The datasets we used ware acquired from different sources. 
+The live data was acquired from Yahoo! Finance while the historical data was from CoinMetrics, Blockchain.com, and EtherScan.io. 
+We also utilized the module named pygooglenews to extract the news headlines, URLs and dates of Google News for performing the sentiment analysis of the news articles headlines. 
+For blockchain analysis on Bitcoin, we utilized a platform called Blockchain. We got the following metrics from the website.
 - Date
 - Year
 - Month

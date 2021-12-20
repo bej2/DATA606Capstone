@@ -257,8 +257,6 @@ We used LSTM and sequential model layers on all 7 cryptocurrencies separately. T
 ![38_Crypto_Result_Chart.PNG](https://github.com/bej2/DATA606Capstone/blob/main/Images/38_Crypto_Result_Chart.PNG)
 ![39_Crypto_Result_Chart.PNG](https://github.com/bej2/DATA606Capstone/blob/main/Images/39_Crypto_Result_Chart.PNG)
 
-The Actual prices on December 16, 2021, and Predicted prices on December 16, 2021, of cryptocurrencies using LSTM.
-
 ## Conclusions
 In conclusion, we do believe that Twitter sentiment is a good predictor of price trends. Using Twitter sentiment analysis and other features we were able to build a model that predicts the price fluctuations of Bitcoin and Ethereum. The Twitter sentiment trend moves in almost the same as the price performance in some instances. Although our model does not predict the exact price in which the coins will move to, our model is able to predict a value which is close to the actual price. 
  

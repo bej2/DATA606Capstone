@@ -76,6 +76,8 @@ For Twitter data, a python module named Twint was used to gather data. It would 
 ### Exploratory Data Analysis of cryptocurrencies
 EDA is an approach for analyzing data using a variety of techniques. The purpose of EDA is to summarize visualizations and statistics to better understand data, its quality and structure. The following is the line graph of all 7 cryptocurrency from 2016 to present day and the correlation between them. 
 
+<img src="https://github.com/bej2/DATA606Capstone/blob/main/Images/4_Ethereum_Sentiment_Pie.png" class="img-responsive" alt="1_Scaled_Prices_of_Crypto.png"> </div>
+
 ![1_Scaled_Prices_of_Crypto.png](https://github.com/bej2/DATA606Capstone/blob/main/Images/4_Ethereum_Sentiment_Pie.png)
 ![2_Crypto_Comparison.png](https://github.com/bej2/DATA606Capstone/blob/main/Images/2_Crypto_Comparison.png)
 

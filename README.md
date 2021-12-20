@@ -78,7 +78,7 @@ EDA is an approach for analyzing data using a variety of techniques. The purpose
 
 <img src="https://github.com/bej2/DATA606Capstone/blob/main/Images/4_Ethereum_Sentiment_Pie.png" class="img-responsive" alt="1_Scaled_Prices_of_Crypto.png"> </div>
 
-![1_Scaled_Prices_of_Crypto.png](https://github.com/bej2/DATA606Capstone/blob/main/Images/4_Ethereum_Sentiment_Pie.png)
+![1_Scaled_Prices_of_Crypto.png](Images/1_Scaled_Prices_of_Crypto.pngs)
 ![2_Crypto_Comparison.png](https://github.com/bej2/DATA606Capstone/blob/main/Images/2_Crypto_Comparison.png)
 
 ### Twitter Sentiment Analysis

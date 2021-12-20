@@ -175,17 +175,19 @@ We now look at the total number of transactions per year from 2015 onwards. Maxi
 
 ### Decision Tree Regression Model Voting 
 Decision Trees are flowcharts like tools where each node in the chart is a new decision that is used in order to make a final decision on what to do with the input. A Decision Tree Regression Model uses the same principle as a decision tree to correctly predict a value based on imputed features. 
-![]()
+![25_decisiontree.png](https://github.com/bej2/DATA606Capstone/blob/main/Images/25_decisiontree.png)
 
 After Decision Tree Regression Models make their predictions on the value of the price of BTC or ETH, they then “vote” on the correct value. This is simply done by averaging the values outputted by each model. The reason voting is useful is because the output relies on the prediction of multiple models. This is beneficial because if one model were to predict poorly, the others would help bring the value to a more precise one. The drawback would be that if one model is very accurate at predicting and the others are not, the one good model is held back by the others. Because the price of crypto can be very erratic and hard to predict, the use of model voting will hopefully eliminate some of the error of just using one model.
 
 For this approach we used three different Decision Tree Regression models which are Random Forest, Gradient Boosting, and ExtraTrees. Random Forest works by creating multiple decision trees and using the outcome of each tree to average the output. The “random” in its name comes from randomly selecting a subset of features for decision making. ExtraTrees is similar to Random Forest, the difference being that in ExtraTrees, the top-down splitting in the tree learner is randomized. Finally, Gradient Boosting works by creating multiple decision tree models. Before each decision tree is created after the first, the Gradient Boosting model uses a gradient descent procedure to minimize the error in the next tree by removing features that cause errors.
 
 The results of the voting-based Decision Tree Regression Models did not perform as well as was hoped. The models for Bitcoin had a R Squared value of around 0.9 and an Explained Variance Score of again around 0.9. On the other hand, for Ethereum, the models only scored around a 0.23 for R Squared and 0.5 for Explained Variance. What these values mean is important. R Squared describes how well a model fits its data, a high R Square a better fit. If too high, a model can be over-fitted, if too low a straight line could do better at predicting. The Explained Variance Score describes how well the model can handle variation. Even though the models scored high for Bitcoin, they still were not able to predict the fall in price, the same goes for Ethereum.
-![]()
-![]()
-![]()
-![]()
+
+![26_dt_bitcoin_accuracy.png](https://github.com/bej2/DATA606Capstone/blob/main/Images/26_dt_bitcoin_accuracy.png)
+![27_dt_ethereum_accuracy.png](https://github.com/bej2/DATA606Capstone/blob/main/Images/27_dt_ethereum_accuracy.png)
+![28_dt_bitcoin_chart.png](https://github.com/bej2/DATA606Capstone/blob/main/Images/28_dt_bitcoin_chart.png)
+![29_dt_ethereum_chart.png](https://github.com/bej2/DATA606Capstone/blob/main/Images/29_dt_ethereum_chart.png)
+
 In order to increase the accuracy of the model, the best approach would be to gather a larger set of data. Due to limitations of twitter gathering tools, the data was constrained to only one and half months of data. If data was gathered for around a year, the amount would help better train the models. Another thing to consider would be adding more features and possibly removing some that hinder the models. The feature selection for these models were done by hand and an aided feature selector could possibly increase the accuracy. Also, to add features, more data should be considered besides just twitter sentiment, google news sentiment, and on chain data. A great feature to include could be the average price of graphics cards as they are used by crypto miners to mine different crypto currencies.
 
 ### GARCH Model: Forecasting Volatility of BTC/ETH.
@@ -203,10 +205,10 @@ After analyzing different model parameters, the GARCH model with the number of l
 We used LSTM network sequential models and LSTM Sequential models are the machine learning models that input or output sequences of data. We applied sequential model to set layers of dense, dropout, and LSTM. The neural network comprises a LSTM layer followed by 20% of dropout layer and dense layer with linear activation function. We compiled the model using Adam as the optimizer and Mean Squared Error as the loss function. The parameters are random number seed, length of the window, test set size, number of neurons in LSTM layer, epochs, batch size, loss, dropouts, and optimizer. We took live data and acquired it from Yahoo! Finance. 
 We took live data from January 01, 2021, to the present day for testing to predict the prices. After that, we predicted the prices for the next day, after one month, after three months and after six months prices for all seven cryptocurrencies. All the predictions are done considering the date December 15, 2021. The line graph below shows the actual prices and predicted prices of every cryptocurrency. There are four-line graphs for every cryptocurrency which is on the next day, after 1 month, after 3 months and after 6 months which depicts actual price and predicted price.
 
-![]()
+![31_Bitcoin_Cryptocurrency_line_graph.jpg](https://github.com/bej2/DATA606Capstone/blob/main/Images/31_Bitcoin_Cryptocurrency_line_graph.jpg)
 Figure: Bitcoin Cryptocurrency line graph
 
-![]()
+![32_Ethereum_Cryptocurrency_line_graph.jpg](https://github.com/bej2/DATA606Capstone/blob/main/Images/32_Ethereum_Cryptocurrency_line_graph.jpg)
 Figure : Ethereum Cryptocurrency line graph
 
 ![33_Litecoin_Cryptocurrency_line_graph.jpg](https://github.com/bej2/DATA606Capstone/blob/main/Images/33_Litecoin_Cryptocurrency_line_graph.jpg)

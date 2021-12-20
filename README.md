@@ -265,3 +265,21 @@ Each one of these approaches to solve our problem worked in some aspects, but al
 In the future, in order to expand on this topic and better solve our issue, we would diversify our data more. Market data, sentiment analysis, and blockchain analysis, was not enough for our models to reach the accuracy we desire. On top of this, we would use a computer aided feature selection algorithm in order to help narrow down the features  to ones that would more accurately predict the price of cryptocurrencies. 
 
 ## References
+[1] Molla, R. (2021, May 18). When Elon Musk tweets, crypto prices move. Vox. Retrieved December 18, 2021, from https://www.vox.com/recode/2021/5/18/22441831/elon-musk-bitcoin-dogecoin-crypto-prices-tesla 
+[2] Jbursz. (2021, May 5). Elon Musk says he talked to ‘North American bitcoin miners,’ sending bitcoin price surging. CNBC. Retrieved December 18, 2021, from https://www.cnbc.com/2021/05/24/bitcoin-price-soars-after-elon-musk-tweet-on-sustainability-efforts.html 
+[3] Reiff, N. (2021, December 8). How much of all money is in bitcoin? Investopedia. Retrieved December 18, 2021, from https://www.investopedia.com/tech/how-much-worlds-money-bitcoin/ 
+[4] Ethereum Price Today, ETH to USD live, marketcap and Chart. CoinMarketCap. (n.d.). Retrieved December 18, 2021, from https://coinmarketcap.com/currencies/ethereum/ 
+[5] Cryptocurrency price prediction using tweet … – SMU scholar. (n.d.). Retrieved December 19, 2021, from https://scholar.smu.edu/cgi/viewcontent.cgi?article=1039&context=datasciencereview 
+[6] Big-crypto: Big Data, Blockchain and cryptocurrency. (n.d.). Retrieved December 17, 2021, from https://www.researchgate.net/profile/Emmanuel-Silva-2/publication/328407542_Big-Crypto_Big_Data_Blockchain_and_Cryptocurrency/links/5bcb360d458515f7d9ccd072/Big-Crypto-Big-Data-Blockchain-and-Cryptocurrency.pdf
+[7] Yahoo! (n.d.). Yahoo Finance - Stock Market Live, quotes, Business & Finance News. Yahoo! Finance. Retrieved December 20, 2021, from https://finance.yahoo.com/
+[8] Bitcoin. CoinDesk Latest Headlines RSS. (n.d.). Retrieved December 20, 2021, from https://www.coindesk.com/price/bitcoin/ 
+[9] Ethereum. CoinDesk Latest Headlines RSS. (n.d.). Retrieved December 20, 2021, from https://www.coindesk.com/price/ethereum/ 
+[10] David Sayce. (2020, December 16). The number of tweets per day in 2020. David Sayce. Retrieved December 20, 2021, from https://www.dsayce.com/social-media/tweets-day/ 
+[11] Salcedosays:, K. L. B., &amp; Deansays:, B. (2021, October 8). How many people use Twitter in 2021? [new twitter stats]. Backlinko. Retrieved December 20, 2021, from https://backlinko.com/twitter-users 
+[12] Bugara A., pygooglenews, GitHub, Kotartemiy. (n.d.). Kotartemiy/pygooglenews: If Google News had a Python Library. GitHub. Retrieved December 20, 2021, from https://github.com/kotartemiy/pygooglenews 
+[13] Blockchain.com Explorer: BTC: ETH: BCH. Blockchain Explorer - Search the Blockchain | BTC | ETH | BCH. (n.d.). Retrieved December 20, 2021, from https://www.blockchain.com/explorer 
+[14] Nair, A. (2021, October 12). Combine
+your machine learning models with voting. Medium. Retrieved December 20, 2021, from https:// towardsdatascience.com /combine- your-machine-learning-models-with-voting-fa1b42790d84
+[15] Etherscan.io. CryptoLinks. (2021, December 17). Retrieved December20, 2021, from https://cryptolinks.com/425/etherscanio
+[16] Gyamerah, S. A. (n.d.). Modelling the volatility of Bitcoin returns using GARCH models. Quantitative Finance and Economics. Retrieved December 20, 2021, from https://www.aimspress.com/article/id/4493 
+[17] Sagar, A. (2019, December 3). Cryptocurrency price prediction using Deep Learning. Medium. Retrieved December 17, 2021,from https://towardsdatascience.com/cryptocurrency-price-prediction-using-deep-learning-70cfca50dd3a

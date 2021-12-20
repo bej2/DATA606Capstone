@@ -76,8 +76,8 @@ For Twitter data, a python module named Twint was used to gather data. It would 
 ### Exploratory Data Analysis of cryptocurrencies
 EDA is an approach for analyzing data using a variety of techniques. The purpose of EDA is to summarize visualizations and statistics to better understand data, its quality and structure. The following is the line graph of all 7 cryptocurrency from 2016 to present day and the correlation between them. 
 
-<img src="https://github.com/bej2/DATA606Capstone/blob/main/Images/1_Scaled_Prices_of_Crypto.png" class="img-responsive" alt="1_Scaled_Prices_of_Crypto.png"></div>
-<img src="https://github.com/bej2/DATA606Capstone/blob/main/Images/2_Crypto_Comparison.png" class="img-responsive" alt="1_Scaled_Prices_of_Crypto.png"></div>
+![1_Scaled_Prices_of_Crypto.png](https://github.com/bej2/DATA606Capstone/blob/main/Images/4_Ethereum_Sentiment_Pie.png)
+![2_Crypto_Comparison.png](https://github.com/bej2/DATA606Capstone/blob/main/Images/2_Crypto_Comparison.png)
 
 ### Twitter Sentiment Analysis
 Twitter is a popular social media platform where users can create short messages to send out for others to read. In fact, in 2021 it is the 16th most popular platform with around 400 million users. These users produce roughly 6,000 tweets per second, which is about 350,000 tweets per minute, or about 500 million tweets sent each day. That is an incredible amount of data. Due to the sheer amount of data produced by twitter users it has become a goldmine for analyzing opinionated data from large sample sizes of users. Natural Language Processing (NLP) is the process of using computers to analyze text and speech in a way like how humans can. There are many different NLP tools, but the ones used in this project for sentiment analysis of twitter data are both Lexicon-based tools. 

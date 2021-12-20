@@ -253,7 +253,10 @@ Figure: Decentraland Cryptocurrency line graph
 Figure: Polygon Cryptocurrency line graph
 
 We used LSTM and sequential model layers on all 7 cryptocurrencies separately. The results we acquired were as per the date December 15, 2021. The results are as follows.
- 
+
+![38_Crypto_Result_Chart.PNG](https://github.com/bej2/DATA606Capstone/blob/main/Images/38_Crypto_Result_Chart.PNG)
+![39_Crypto_Result_Chart.PNG](https://github.com/bej2/DATA606Capstone/blob/main/Images/39_Crypto_Result_Chart.PNG)
+
 The Actual prices on December 16, 2021, and Predicted prices on December 16, 2021, of cryptocurrencies using LSTM.
 
 ## Conclusions

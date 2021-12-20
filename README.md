@@ -258,9 +258,10 @@ We used LSTM and sequential model layers on all 7 cryptocurrencies separately. T
 ![39_Crypto_Result_Chart.PNG](https://github.com/bej2/DATA606Capstone/blob/main/Images/39_Crypto_Result_Chart.PNG)
 
 ## Conclusions
-In conclusion, we do believe that Twitter sentiment is a good predictor of price trends. Using Twitter sentiment analysis and other features we were able to build a model that predicts the price fluctuations of Bitcoin and Ethereum. The Twitter sentiment trend moves in almost the same as the price performance in some instances. Although our model does not predict the exact price in which the coins will move to, our model is able to predict a value which is close to the actual price. 
- 
-
-
+In conclusion, our models show that the price of crypto is difficult to predict. Even when sentiment from different platforms is incorporated into the feature selection and the models have a good fit, the models still struggle to predict future prices. In our Decision Tree model, we had both a R Squared value and an Explained Variance score of 0.9 for Bitcoin. This means that the model fit our data well in the test and could handle variance. Even with this, the model failed to accurately predict price 1 week out. 
+The volatility model is used by financial institutions to estimate the return volatility of stocks, bonds, and other investment vehicles which helps them manage risk vs reward. In order to achieve an accurate forecast, we decided to use the GARCH model to forecast the volatility in the market. In our GARCH model, it accurately determined the periods of high volatility and low volatility.  
+The LSTM model has a negative R Squared value for every version of the model which is completely unexpected. Even looking at the graph of the predicted price versus the actual price, we can see that the model is able to roughly predict prices and follow the trends of Bitcoin, Ethereum, and Litecoin.
+Each one of these approaches to solve our problem worked in some aspects, but all ultimately failed to reach the level of accuracy we would have hoped for. Most of our data came from crypto markets. It turns out that this data, by itself, fails to accurately predict the price of crypto. The inclusion of sentiment analysis and blockchain analysis was in the hope of adding something to supplement this failure. Even with this inclusion, the models still failed. 
+In the future, in order to expand on this topic and better solve our issue, we would diversify our data more. Market data, sentiment analysis, and blockchain analysis, was not enough for our models to reach the accuracy we desire. On top of this, we would use a computer aided feature selection algorithm in order to help narrow down the features  to ones that would more accurately predict the price of cryptocurrencies. 
 
 ## References

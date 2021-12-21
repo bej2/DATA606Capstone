@@ -289,7 +289,7 @@ In the future, in order to expand on this topic and better solve our issue, we w
 
 [12] Bugara A., pygooglenews, GitHub, Kotartemiy. (n.d.). Kotartemiy/pygooglenews: If Google News had a Python Library. GitHub. Retrieved December 20, 2021, from https://github.com/kotartemiy/pygooglenews 
 
-[13] Blockchain.com Explorer: BTC: ETH: BCH. Blockchain Explorer - Search the Blockchain | BTC | ETH | BCH. (n.d.). Retrieved December 20, 2021, from https://www.blockchain.com/explorer 
+[13] Blockchain.com Explorer: BTC: ETH: BCH. Blockchain Explorer - Search the Blockchain . BTC . ETH . BCH. (n.d.). Retrieved December 20, 2021, from https://www.blockchain.com/explorer 
 
 [14] Nair, A. (2021, October 12). Combine your machine learning models with voting. Medium. Retrieved December 20, 2021, from https:// towardsdatascience.com /combine- your-machine-learning-models-with-voting-fa1b42790d84
 
